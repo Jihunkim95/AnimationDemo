@@ -18,6 +18,7 @@
 		5C93AC222B318CF700292CEC /* ToggleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC212B318CF700292CEC /* ToggleAnimationView.swift */; };
 		5C93AC242B318D1900292CEC /* CircleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC232B318D1900292CEC /* CircleAnimationView.swift */; };
 		5C93AC262B318DA700292CEC /* AnimatableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC252B318DA700292CEC /* AnimatableTextView.swift */; };
+		5C93AC282B318FD500292CEC /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC272B318FD500292CEC /* TransitionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		5C93AC212B318CF700292CEC /* ToggleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimationView.swift; sourceTree = "<group>"; };
 		5C93AC232B318D1900292CEC /* CircleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleAnimationView.swift; path = ../../../../CircleAnimationView.swift; sourceTree = "<group>"; };
 		5C93AC252B318DA700292CEC /* AnimatableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatableTextView.swift; path = ../../../../AnimatableTextView.swift; sourceTree = "<group>"; };
+		5C93AC272B318FD500292CEC /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransitionView.swift; path = ../../../../TransitionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				5C93AC212B318CF700292CEC /* ToggleAnimationView.swift */,
 				5C93AC232B318D1900292CEC /* CircleAnimationView.swift */,
 				5C93AC252B318DA700292CEC /* AnimatableTextView.swift */,
+				5C93AC272B318FD500292CEC /* TransitionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				5C93AC1E2B318C3000292CEC /* AutoAnimationView.swift in Sources */,
 				5C93AC242B318D1900292CEC /* CircleAnimationView.swift in Sources */,
 				5C93AC222B318CF700292CEC /* ToggleAnimationView.swift in Sources */,
+				5C93AC282B318FD500292CEC /* TransitionView.swift in Sources */,
 				5C93ABF22B3177A500292CEC /* ContentView.swift in Sources */,
 				5C93ABF02B3177A500292CEC /* AnimationDemoApp.swift in Sources */,
 				5C93AC262B318DA700292CEC /* AnimatableTextView.swift in Sources */,

@@ -18,7 +18,8 @@ struct AutoAnimationView: View {
             Circle()
                 .stroke(lineWidth: 2.0)
                 .foregroundColor(Color.blue)
-    
+                .frame(width: 200,height: 200)
+            
             Image(systemName: "forward.fill")
                 .font(.largeTitle)
                 .offset(y: -105)
