@@ -13,6 +13,9 @@ struct ContentView: View {
     @State private var scale: CGFloat = 1
     @State private var redCircle = false
     
+    //애니메이션 상태 바인딩
+    @State private var visibility = false
+    
     var body: some View {
         VStack {
             Button{
@@ -33,7 +36,6 @@ struct ContentView: View {
                                    ,value: rotation)
                     
                     AnimatableTextView(text: "명시적 애니메이션", rotation: rotation, scale: scale)
- 
                 }
             }
             Circle()
@@ -44,6 +46,17 @@ struct ContentView: View {
                         redCircle.toggle()
                     }
                 }
+            //실제 시뮬에서 확인
+            Toggle(isOn: $visibility.animation(.linear(duration: 5))){
+                Text("Toggle Text Views 실제 시뮬에서 확인")
+            }
+            .padding()
+            
+            if visibility{
+                Text("Hello Word!")
+            }else{
+                Text("Goodbye World!")
+            }
         }
 
     }
