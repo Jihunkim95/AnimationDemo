@@ -16,6 +16,9 @@ struct ContentView: View {
     //애니메이션 상태 바인딩
     @State private var visibility = false
     
+    //자동애니메이션
+    @State private var isSpinning: Bool = true
+    
     var body: some View {
         VStack {
             Button{
@@ -56,6 +59,23 @@ struct ContentView: View {
                 Text("Hello Word!")
             }else{
                 Text("Goodbye World!")
+            }
+            
+            ZStack{
+                Text("애니메이션 자동 시작")
+                Circle()
+                    .stroke(lineWidth: 2.0)
+                    .foregroundColor(Color.blue)
+        
+                Image(systemName: "forward.fill")
+                    .font(.largeTitle)
+                    .offset(y: -105)
+                    .rotationEffect(.degrees(rotation))
+                    .animation(Animation.linear(duration: 5).repeatForever(autoreverses: false),value: rotation)
+            }
+            .onAppear(){
+                self.isSpinning.toggle()
+                rotation = isSpinning ? 0 : 360
             }
         }
 
