@@ -14,6 +14,10 @@
 		5C93AC022B3177A700292CEC /* AnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC012B3177A700292CEC /* AnimationDemoTests.swift */; };
 		5C93AC0C2B3177A700292CEC /* AnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC0B2B3177A700292CEC /* AnimationDemoUITests.swift */; };
 		5C93AC0E2B3177A700292CEC /* AnimationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC0D2B3177A700292CEC /* AnimationDemoUITestsLaunchTests.swift */; };
+		5C93AC1E2B318C3000292CEC /* AutoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC1D2B318C1600292CEC /* AutoAnimationView.swift */; };
+		5C93AC222B318CF700292CEC /* ToggleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC212B318CF700292CEC /* ToggleAnimationView.swift */; };
+		5C93AC242B318D1900292CEC /* CircleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC232B318D1900292CEC /* CircleAnimationView.swift */; };
+		5C93AC262B318DA700292CEC /* AnimatableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC252B318DA700292CEC /* AnimatableTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		5C93AC072B3177A700292CEC /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C93AC0B2B3177A700292CEC /* AnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITests.swift; sourceTree = "<group>"; };
 		5C93AC0D2B3177A700292CEC /* AnimationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C93AC1D2B318C1600292CEC /* AutoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoAnimationView.swift; sourceTree = "<group>"; };
+		5C93AC212B318CF700292CEC /* ToggleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimationView.swift; sourceTree = "<group>"; };
+		5C93AC232B318D1900292CEC /* CircleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleAnimationView.swift; path = ../../../../CircleAnimationView.swift; sourceTree = "<group>"; };
+		5C93AC252B318DA700292CEC /* AnimatableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatableTextView.swift; path = ../../../../AnimatableTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +103,9 @@
 		5C93ABEE2B3177A500292CEC /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5C93ABEF2B3177A500292CEC /* AnimationDemoApp.swift */,
 				5C93ABF12B3177A500292CEC /* ContentView.swift */,
+				5C93AC1C2B318C0F00292CEC /* View */,
+				5C93ABEF2B3177A500292CEC /* AnimationDemoApp.swift */,
 				5C93ABF32B3177A700292CEC /* Assets.xcassets */,
 				5C93ABF52B3177A700292CEC /* AnimationDemo.entitlements */,
 				5C93ABF62B3177A700292CEC /* Preview Content */,
@@ -127,6 +136,17 @@
 				5C93AC0D2B3177A700292CEC /* AnimationDemoUITestsLaunchTests.swift */,
 			);
 			path = AnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		5C93AC1C2B318C0F00292CEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C93AC1D2B318C1600292CEC /* AutoAnimationView.swift */,
+				5C93AC212B318CF700292CEC /* ToggleAnimationView.swift */,
+				5C93AC232B318D1900292CEC /* CircleAnimationView.swift */,
+				5C93AC252B318DA700292CEC /* AnimatableTextView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C93AC1E2B318C3000292CEC /* AutoAnimationView.swift in Sources */,
+				5C93AC242B318D1900292CEC /* CircleAnimationView.swift in Sources */,
+				5C93AC222B318CF700292CEC /* ToggleAnimationView.swift in Sources */,
 				5C93ABF22B3177A500292CEC /* ContentView.swift in Sources */,
 				5C93ABF02B3177A500292CEC /* AnimationDemoApp.swift in Sources */,
+				5C93AC262B318DA700292CEC /* AnimatableTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

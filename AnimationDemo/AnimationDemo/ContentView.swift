@@ -9,15 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var rotation: Double = 0
+    @State var rotation: Double = 0
     @State private var scale: CGFloat = 1
     @State private var redCircle = false
     
     //애니메이션 상태 바인딩
     @State private var visibility = false
-    
     //자동애니메이션
-    @State private var isSpinning: Bool = true
+    @State var isSpinning: Bool = true
+
     
     var body: some View {
         VStack {
@@ -41,42 +41,13 @@ struct ContentView: View {
                     AnimatableTextView(text: "명시적 애니메이션", rotation: rotation, scale: scale)
                 }
             }
-            Circle()
-                .fill(redCircle ? .red : .blue)
-                .frame(width: 200,height: 200)
-                .onTapGesture {
-                    withAnimation{
-                        redCircle.toggle()
-                    }
-                }
+ 
+            CircleAnimationView(redCircle: $redCircle)
             //실제 시뮬에서 확인
-            Toggle(isOn: $visibility.animation(.linear(duration: 5))){
-                Text("Toggle Text Views 실제 시뮬에서 확인")
-            }
-            .padding()
+            ToggleAnimationView(visibility: $visibility)
             
-            if visibility{
-                Text("Hello Word!")
-            }else{
-                Text("Goodbye World!")
-            }
-            
-            ZStack{
-                Text("애니메이션 자동 시작")
-                Circle()
-                    .stroke(lineWidth: 2.0)
-                    .foregroundColor(Color.blue)
-        
-                Image(systemName: "forward.fill")
-                    .font(.largeTitle)
-                    .offset(y: -105)
-                    .rotationEffect(.degrees(rotation))
-                    .animation(Animation.linear(duration: 5).repeatForever(autoreverses: false),value: rotation)
-            }
-            .onAppear(){
-                self.isSpinning.toggle()
-                rotation = isSpinning ? 0 : 360
-            }
+            AutoAnimationView(isSpinning: $isSpinning,rotation: $rotation)
+
         }
 
     }
@@ -86,18 +57,4 @@ struct ContentView: View {
     ContentView()
 }
 
-struct AnimatableTextView: View {
-    
-    var text: String
-    var rotation: Double
-    var scale: CGFloat
-    
-    var body: some View {
-        Text(text)
-            .rotationEffect(.degrees(rotation))
-        //점점 커질거임
-            .scaleEffect(scale)
-            .padding()
-        
-    }
-}
+
