@@ -21,6 +21,7 @@
 		5C93AC3A2B3197A200292CEC /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC392B3197A200292CEC /* TransitionView.swift */; };
 		5C93AC642B32A8C300292CEC /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC632B32A8C300292CEC /* AnimatableView.swift */; };
 		5C93AC662B32B50D00292CEC /* SimplePhaseAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC652B32B50D00292CEC /* SimplePhaseAnimatorView.swift */; };
+		5C93AC682B32B69500292CEC /* PhaseAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC672B32B69500292CEC /* PhaseAnimatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5C93AC392B3197A200292CEC /* TransitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		5C93AC632B32A8C300292CEC /* AnimatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableView.swift; sourceTree = "<group>"; };
 		5C93AC652B32B50D00292CEC /* SimplePhaseAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePhaseAnimatorView.swift; sourceTree = "<group>"; };
+		5C93AC672B32B69500292CEC /* PhaseAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				5C93AC392B3197A200292CEC /* TransitionView.swift */,
 				5C93AC632B32A8C300292CEC /* AnimatableView.swift */,
 				5C93AC652B32B50D00292CEC /* SimplePhaseAnimatorView.swift */,
+				5C93AC672B32B69500292CEC /* PhaseAnimatorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				5C93AC1E2B318C3000292CEC /* AutoAnimationView.swift in Sources */,
 				5C93AC362B31978000292CEC /* CircleAnimationView.swift in Sources */,
 				5C93ABF02B3177A500292CEC /* AnimationDemoApp.swift in Sources */,
+				5C93AC682B32B69500292CEC /* PhaseAnimatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
