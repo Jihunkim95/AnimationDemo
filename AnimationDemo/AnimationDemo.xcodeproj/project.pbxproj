@@ -24,6 +24,8 @@
 		5C93AC682B32B69500292CEC /* PhaseAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC672B32B69500292CEC /* PhaseAnimatorView.swift */; };
 		5C93AC6A2B32B7F300292CEC /* KeyframeAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC692B32B7F300292CEC /* KeyframeAnimatorView.swift */; };
 		5C93AC6C2B32BE0500292CEC /* AnimatedSymbolEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC6B2B32BE0500292CEC /* AnimatedSymbolEffectView.swift */; };
+		5C93AC6F2B32C41300292CEC /* AniNavigationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC6E2B32C41300292CEC /* AniNavigationMenuView.swift */; };
+		5C93AC712B32CDC400292CEC /* LinearGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC702B32CDC400292CEC /* LinearGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		5C93AC672B32B69500292CEC /* PhaseAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimatorView.swift; sourceTree = "<group>"; };
 		5C93AC692B32B7F300292CEC /* KeyframeAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimatorView.swift; sourceTree = "<group>"; };
 		5C93AC6B2B32BE0500292CEC /* AnimatedSymbolEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSymbolEffectView.swift; sourceTree = "<group>"; };
+		5C93AC6E2B32C41300292CEC /* AniNavigationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniNavigationMenuView.swift; sourceTree = "<group>"; };
+		5C93AC702B32CDC400292CEC /* LinearGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				5C93ABF12B3177A500292CEC /* ContentView.swift */,
 				5C93AC1C2B318C0F00292CEC /* View */,
 				5C93ABEF2B3177A500292CEC /* AnimationDemoApp.swift */,
+				5C93AC6D2B32C3AA00292CEC /* PracticeView */,
 				5C93ABF32B3177A700292CEC /* Assets.xcassets */,
 				5C93ABF52B3177A700292CEC /* AnimationDemo.entitlements */,
 				5C93ABF62B3177A700292CEC /* Preview Content */,
@@ -165,6 +170,15 @@
 				5C93AC6B2B32BE0500292CEC /* AnimatedSymbolEffectView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5C93AC6D2B32C3AA00292CEC /* PracticeView */ = {
+			isa = PBXGroup;
+			children = (
+				5C93AC6E2B32C41300292CEC /* AniNavigationMenuView.swift */,
+				5C93AC702B32CDC400292CEC /* LinearGradientView.swift */,
+			);
+			path = PracticeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +314,13 @@
 				5C93AC662B32B50D00292CEC /* SimplePhaseAnimatorView.swift in Sources */,
 				5C93AC6A2B32B7F300292CEC /* KeyframeAnimatorView.swift in Sources */,
 				5C93AC6C2B32BE0500292CEC /* AnimatedSymbolEffectView.swift in Sources */,
+				5C93AC6F2B32C41300292CEC /* AniNavigationMenuView.swift in Sources */,
 				5C93AC642B32A8C300292CEC /* AnimatableView.swift in Sources */,
 				5C93AC382B31979100292CEC /* AnimatableTextView.swift in Sources */,
 				5C93ABF22B3177A500292CEC /* ContentView.swift in Sources */,
 				5C93AC222B318CF700292CEC /* ToggleAnimationView.swift in Sources */,
 				5C93AC3A2B3197A200292CEC /* TransitionView.swift in Sources */,
+				5C93AC712B32CDC400292CEC /* LinearGradientView.swift in Sources */,
 				5C93AC1E2B318C3000292CEC /* AutoAnimationView.swift in Sources */,
 				5C93AC362B31978000292CEC /* CircleAnimationView.swift in Sources */,
 				5C93ABF02B3177A500292CEC /* AnimationDemoApp.swift in Sources */,
