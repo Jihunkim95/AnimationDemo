@@ -19,6 +19,8 @@
 		5C93AC362B31978000292CEC /* CircleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC352B31978000292CEC /* CircleAnimationView.swift */; };
 		5C93AC382B31979100292CEC /* AnimatableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC372B31979100292CEC /* AnimatableTextView.swift */; };
 		5C93AC3A2B3197A200292CEC /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC392B3197A200292CEC /* TransitionView.swift */; };
+		5C93AC642B32A8C300292CEC /* AnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC632B32A8C300292CEC /* AnimatableView.swift */; };
+		5C93AC662B32B50D00292CEC /* SimplePhaseAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC652B32B50D00292CEC /* SimplePhaseAnimatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		5C93AC352B31978000292CEC /* CircleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimationView.swift; sourceTree = "<group>"; };
 		5C93AC372B31979100292CEC /* AnimatableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableTextView.swift; sourceTree = "<group>"; };
 		5C93AC392B3197A200292CEC /* TransitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
+		5C93AC632B32A8C300292CEC /* AnimatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableView.swift; sourceTree = "<group>"; };
+		5C93AC652B32B50D00292CEC /* SimplePhaseAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePhaseAnimatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 				5C93AC352B31978000292CEC /* CircleAnimationView.swift */,
 				5C93AC372B31979100292CEC /* AnimatableTextView.swift */,
 				5C93AC392B3197A200292CEC /* TransitionView.swift */,
+				5C93AC632B32A8C300292CEC /* AnimatableView.swift */,
+				5C93AC652B32B50D00292CEC /* SimplePhaseAnimatorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C93AC662B32B50D00292CEC /* SimplePhaseAnimatorView.swift in Sources */,
+				5C93AC642B32A8C300292CEC /* AnimatableView.swift in Sources */,
 				5C93AC382B31979100292CEC /* AnimatableTextView.swift in Sources */,
 				5C93ABF22B3177A500292CEC /* ContentView.swift in Sources */,
 				5C93AC222B318CF700292CEC /* ToggleAnimationView.swift in Sources */,
