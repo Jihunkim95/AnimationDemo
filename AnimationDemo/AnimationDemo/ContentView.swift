@@ -34,9 +34,10 @@ struct ContentView: View {
 //                AutoAnimationView(isSpinning: $isSpinning,rotation: $rotation)
 //                
 //                TransitionView(isButtonVisible: $isButtonVisible)
-                SimplePhaseAnimatorView()
-                PhaseAnimatorView()
+//                SimplePhaseAnimatorView()
+//                PhaseAnimatorView()
 //                KeyframeAnimatorView()
+                AnimatedSymbolEffectView()
             }
         }
 
